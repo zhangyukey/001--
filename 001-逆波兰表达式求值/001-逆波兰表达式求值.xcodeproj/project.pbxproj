@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A78B5E512355A27300C5D643 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A78B5E502355A27300C5D643 /* AppDelegate.m */; };
+		A78B5E542355A27300C5D643 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A78B5E532355A27300C5D643 /* SceneDelegate.m */; };
+		A78B5E572355A27300C5D643 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A78B5E562355A27300C5D643 /* ViewController.m */; };
+		A78B5E5A2355A27300C5D643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78B5E582355A27300C5D643 /* Main.storyboard */; };
+		A78B5E5C2355A29800C5D643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A78B5E5B2355A29800C5D643 /* Assets.xcassets */; };
+		A78B5E5F2355A29800C5D643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78B5E5D2355A29800C5D643 /* LaunchScreen.storyboard */; };
+		A78B5E622355A29800C5D643 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A78B5E612355A29800C5D643 /* main.m */; };
+		A78B5E6C2355A29900C5D643 /* _01_________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A78B5E6B2355A29900C5D643 /* _01_________Tests.m */; };
+		A78B5E772355A29900C5D643 /* _01_________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A78B5E762355A29900C5D643 /* _01_________UITests.m */; };
+		A78B5E8C2355BB9900C5D643 /* ZYStack.m in Sources */ = {isa = PBXBuildFile; fileRef = A78B5E8B2355BB9900C5D643 /* ZYStack.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A78B5E682355A29800C5D643 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A78B5E442355A27200C5D643 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A78B5E4B2355A27300C5D643;
+			remoteInfo = "001-逆波兰表达式求值";
+		};
+		A78B5E732355A29900C5D643 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A78B5E442355A27200C5D643 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A78B5E4B2355A27300C5D643;
+			remoteInfo = "001-逆波兰表达式求值";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A78B5E4C2355A27300C5D643 /* 001-逆波兰表达式求值.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "001-逆波兰表达式求值.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78B5E4F2355A27300C5D643 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A78B5E502355A27300C5D643 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A78B5E522355A27300C5D643 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A78B5E532355A27300C5D643 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A78B5E552355A27300C5D643 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A78B5E562355A27300C5D643 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A78B5E592355A27300C5D643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A78B5E5B2355A29800C5D643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A78B5E5E2355A29800C5D643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A78B5E602355A29800C5D643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A78B5E612355A29800C5D643 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A78B5E672355A29800C5D643 /* 001-逆波兰表达式求值Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "001-逆波兰表达式求值Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78B5E6B2355A29900C5D643 /* _01_________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_01_________Tests.m"; sourceTree = "<group>"; };
+		A78B5E6D2355A29900C5D643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A78B5E722355A29900C5D643 /* 001-逆波兰表达式求值UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "001-逆波兰表达式求值UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78B5E762355A29900C5D643 /* _01_________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_01_________UITests.m"; sourceTree = "<group>"; };
+		A78B5E782355A29900C5D643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A78B5E8A2355BB9900C5D643 /* ZYStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYStack.h; sourceTree = "<group>"; };
+		A78B5E8B2355BB9900C5D643 /* ZYStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYStack.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A78B5E492355A27300C5D643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78B5E642355A29800C5D643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78B5E6F2355A29900C5D643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A78B5E432355A27200C5D643 = {
+			isa = PBXGroup;
+			children = (
+				A78B5E4E2355A27300C5D643 /* 001-逆波兰表达式求值 */,
+				A78B5E6A2355A29800C5D643 /* 001-逆波兰表达式求值Tests */,
+				A78B5E752355A29900C5D643 /* 001-逆波兰表达式求值UITests */,
+				A78B5E4D2355A27300C5D643 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A78B5E4D2355A27300C5D643 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A78B5E4C2355A27300C5D643 /* 001-逆波兰表达式求值.app */,
+				A78B5E672355A29800C5D643 /* 001-逆波兰表达式求值Tests.xctest */,
+				A78B5E722355A29900C5D643 /* 001-逆波兰表达式求值UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A78B5E4E2355A27300C5D643 /* 001-逆波兰表达式求值 */ = {
+			isa = PBXGroup;
+			children = (
+				A78B5E4F2355A27300C5D643 /* AppDelegate.h */,
+				A78B5E502355A27300C5D643 /* AppDelegate.m */,
+				A78B5E522355A27300C5D643 /* SceneDelegate.h */,
+				A78B5E532355A27300C5D643 /* SceneDelegate.m */,
+				A78B5E8A2355BB9900C5D643 /* ZYStack.h */,
+				A78B5E8B2355BB9900C5D643 /* ZYStack.m */,
+				A78B5E552355A27300C5D643 /* ViewController.h */,
+				A78B5E562355A27300C5D643 /* ViewController.m */,
+				A78B5E582355A27300C5D643 /* Main.storyboard */,
+				A78B5E5B2355A29800C5D643 /* Assets.xcassets */,
+				A78B5E5D2355A29800C5D643 /* LaunchScreen.storyboard */,
+				A78B5E602355A29800C5D643 /* Info.plist */,
+				A78B5E612355A29800C5D643 /* main.m */,
+			);
+			path = "001-逆波兰表达式求值";
+			sourceTree = "<group>";
+		};
+		A78B5E6A2355A29800C5D643 /* 001-逆波兰表达式求值Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A78B5E6B2355A29900C5D643 /* _01_________Tests.m */,
+				A78B5E6D2355A29900C5D643 /* Info.plist */,
+			);
+			path = "001-逆波兰表达式求值Tests";
+			sourceTree = "<group>";
+		};
+		A78B5E752355A29900C5D643 /* 001-逆波兰表达式求值UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A78B5E762355A29900C5D643 /* _01_________UITests.m */,
+				A78B5E782355A29900C5D643 /* Info.plist */,
+			);
+			path = "001-逆波兰表达式求值UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A78B5E4B2355A27300C5D643 /* 001-逆波兰表达式求值 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78B5E7B2355A29900C5D643 /* Build configuration list for PBXNativeTarget "001-逆波兰表达式求值" */;
+			buildPhases = (
+				A78B5E482355A27300C5D643 /* Sources */,
+				A78B5E492355A27300C5D643 /* Frameworks */,
+				A78B5E4A2355A27300C5D643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "001-逆波兰表达式求值";
+			productName = "001-逆波兰表达式求值";
+			productReference = A78B5E4C2355A27300C5D643 /* 001-逆波兰表达式求值.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A78B5E662355A29800C5D643 /* 001-逆波兰表达式求值Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78B5E7E2355A29900C5D643 /* Build configuration list for PBXNativeTarget "001-逆波兰表达式求值Tests" */;
+			buildPhases = (
+				A78B5E632355A29800C5D643 /* Sources */,
+				A78B5E642355A29800C5D643 /* Frameworks */,
+				A78B5E652355A29800C5D643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A78B5E692355A29800C5D643 /* PBXTargetDependency */,
+			);
+			name = "001-逆波兰表达式求值Tests";
+			productName = "001-逆波兰表达式求值Tests";
+			productReference = A78B5E672355A29800C5D643 /* 001-逆波兰表达式求值Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A78B5E712355A29900C5D643 /* 001-逆波兰表达式求值UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78B5E812355A29900C5D643 /* Build configuration list for PBXNativeTarget "001-逆波兰表达式求值UITests" */;
+			buildPhases = (
+				A78B5E6E2355A29900C5D643 /* Sources */,
+				A78B5E6F2355A29900C5D643 /* Frameworks */,
+				A78B5E702355A29900C5D643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A78B5E742355A29900C5D643 /* PBXTargetDependency */,
+			);
+			name = "001-逆波兰表达式求值UITests";
+			productName = "001-逆波兰表达式求值UITests";
+			productReference = A78B5E722355A29900C5D643 /* 001-逆波兰表达式求值UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A78B5E442355A27200C5D643 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "张乾坤";
+				TargetAttributes = {
+					A78B5E4B2355A27300C5D643 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					A78B5E662355A29800C5D643 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A78B5E4B2355A27300C5D643;
+					};
+					A78B5E712355A29900C5D643 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A78B5E4B2355A27300C5D643;
+					};
+				};
+			};
+			buildConfigurationList = A78B5E472355A27200C5D643 /* Build configuration list for PBXProject "001-逆波兰表达式求值" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A78B5E432355A27200C5D643;
+			productRefGroup = A78B5E4D2355A27300C5D643 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A78B5E4B2355A27300C5D643 /* 001-逆波兰表达式求值 */,
+				A78B5E662355A29800C5D643 /* 001-逆波兰表达式求值Tests */,
+				A78B5E712355A29900C5D643 /* 001-逆波兰表达式求值UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A78B5E4A2355A27300C5D643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78B5E5F2355A29800C5D643 /* LaunchScreen.storyboard in Resources */,
+				A78B5E5C2355A29800C5D643 /* Assets.xcassets in Resources */,
+				A78B5E5A2355A27300C5D643 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78B5E652355A29800C5D643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78B5E702355A29900C5D643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A78B5E482355A27300C5D643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78B5E572355A27300C5D643 /* ViewController.m in Sources */,
+				A78B5E512355A27300C5D643 /* AppDelegate.m in Sources */,
+				A78B5E8C2355BB9900C5D643 /* ZYStack.m in Sources */,
+				A78B5E622355A29800C5D643 /* main.m in Sources */,
+				A78B5E542355A27300C5D643 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78B5E632355A29800C5D643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78B5E6C2355A29900C5D643 /* _01_________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78B5E6E2355A29900C5D643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78B5E772355A29900C5D643 /* _01_________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A78B5E692355A29800C5D643 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A78B5E4B2355A27300C5D643 /* 001-逆波兰表达式求值 */;
+			targetProxy = A78B5E682355A29800C5D643 /* PBXContainerItemProxy */;
+		};
+		A78B5E742355A29900C5D643 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A78B5E4B2355A27300C5D643 /* 001-逆波兰表达式求值 */;
+			targetProxy = A78B5E732355A29900C5D643 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A78B5E582355A27300C5D643 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A78B5E592355A27300C5D643 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A78B5E5D2355A29800C5D643 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A78B5E5E2355A29800C5D643 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A78B5E792355A29900C5D643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A78B5E7A2355A29900C5D643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A78B5E7C2355A29900C5D643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR4AMLQ6DV;
+				INFOPLIST_FILE = "001-逆波兰表达式求值/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ff.-01---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A78B5E7D2355A29900C5D643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR4AMLQ6DV;
+				INFOPLIST_FILE = "001-逆波兰表达式求值/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ff.-01---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A78B5E7F2355A29900C5D643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR4AMLQ6DV;
+				INFOPLIST_FILE = "001-逆波兰表达式求值Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ff.-01---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/001-逆波兰表达式求值.app/001-逆波兰表达式求值";
+			};
+			name = Debug;
+		};
+		A78B5E802355A29900C5D643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR4AMLQ6DV;
+				INFOPLIST_FILE = "001-逆波兰表达式求值Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ff.-01---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/001-逆波兰表达式求值.app/001-逆波兰表达式求值";
+			};
+			name = Release;
+		};
+		A78B5E822355A29900C5D643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR4AMLQ6DV;
+				INFOPLIST_FILE = "001-逆波兰表达式求值UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ff.-01---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "001-逆波兰表达式求值";
+			};
+			name = Debug;
+		};
+		A78B5E832355A29900C5D643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR4AMLQ6DV;
+				INFOPLIST_FILE = "001-逆波兰表达式求值UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ff.-01---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "001-逆波兰表达式求值";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A78B5E472355A27200C5D643 /* Build configuration list for PBXProject "001-逆波兰表达式求值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78B5E792355A29900C5D643 /* Debug */,
+				A78B5E7A2355A29900C5D643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A78B5E7B2355A29900C5D643 /* Build configuration list for PBXNativeTarget "001-逆波兰表达式求值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78B5E7C2355A29900C5D643 /* Debug */,
+				A78B5E7D2355A29900C5D643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A78B5E7E2355A29900C5D643 /* Build configuration list for PBXNativeTarget "001-逆波兰表达式求值Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78B5E7F2355A29900C5D643 /* Debug */,
+				A78B5E802355A29900C5D643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A78B5E812355A29900C5D643 /* Build configuration list for PBXNativeTarget "001-逆波兰表达式求值UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78B5E822355A29900C5D643 /* Debug */,
+				A78B5E832355A29900C5D643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A78B5E442355A27200C5D643 /* Project object */;
+}
